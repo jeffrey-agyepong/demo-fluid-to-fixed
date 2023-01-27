@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+.container {
+    /* fluid containers grow with the viewport and go edge-to-edge */
+    /* fixed width containers, are a hard fixed width, px value */
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+header {
+    background-color: tomato;
+}
+
+section:first-of-type {
+    background-color: rebeccapurple;
+}
+
+.flex-container>section {
+    background-color: #454545;
+    width: calc(96%/3);
+}
+
+section {
+    background-color: aqua;
+}
+
+
+
+footer {
+    background-color: brown;
+}
